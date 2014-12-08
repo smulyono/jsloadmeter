@@ -6,7 +6,7 @@ module.exports = function(grunt){
 
 	var MOCHA_OPTIONS = {
 		globals : ['expect'],
-		timeout : 3000,
+		timeout : 7000,
 		ignoreLeaks : false,
 		ui : 'bdd',
 		reporter : 'spec'
@@ -18,7 +18,9 @@ module.exports = function(grunt){
 		node_mocha : {
 			test : {
 				src : ['<%= config.testdir %>'],
-				options : MOCHA_OPTIONS
+				options : {
+					mochaOptions : MOCHA_OPTIONS
+				}
 			},
 			"test-cov" : {
 				src : ['<%= config.testdir %>'],

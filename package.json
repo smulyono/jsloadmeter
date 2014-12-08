@@ -2,7 +2,7 @@
   "name": "jsloadmeter",
   "version": "1.0.0",
   "description": "Simple load / stress testing tools with phantomjs. ",
-  "main": "lib/loadmeter.js",
+  "main": "lib/jsloadmeter.js",
   "scripts": {
     "test": "node_modules/.bin/grunt test"
   },
