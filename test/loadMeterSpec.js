@@ -7,11 +7,10 @@ describe('LoadMeter Test Suite', function () {
 		var instance = require(__dirname + "/../lib/jsloadmeter.js");
 		instance.loadMeter({
 			url:"http://www.google.com",
-			count : 10
-		}, function(err, stderr, stdin){
-			console.log('err', err);
-			console.log('stderr', stderr);
-			console.log('stdin', stdin);
+			count : 5
+		}, function(err, stdout, stderr){
+			expect(err).to.be.null;
+			console.log(stdout);
 			done();
 		});
 	});

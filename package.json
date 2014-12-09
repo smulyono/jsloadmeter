@@ -1,34 +1,44 @@
 {
-  "name": "jsloadmeter",
-  "version": "1.0.0",
-  "description": "Simple load / stress testing tools with phantomjs. ",
-  "main": "lib/jsloadmeter.js",
-  "scripts": {
-    "test": "node_modules/.bin/grunt test"
-  },
-  "keywords": [
-    "load",
-    "meter",
-    "stress",
-    "testing",
-    "benchmark",
-    "phantomjs"
-  ],
-  "author": "Sanny M",
-  "license": "Apache 2",
-  "dependencies": {
-    "phantomjs": "^1.9.12"
-  },
-  "devDependencies": {
-    "chai": "^1.10.0",
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-mocha-istanbul": "^2.2.0",
-    "grunt-node-mocha": "^0.1.2",
-    "grunt-simple-mocha": "^0.4.0",
-    "istanbul": "^0.3.5",
-    "matchdep": "^0.3.0",
-    "mocha": "^2.0.1"
-  }
+    "name": "jsloadmeter",
+    "version": "0.1.0",
+    "homepage": "https://github.com/smulyono/jsloadmeter",
+    "description": "Simple load / stress testing tools with phantomjs.",
+    "main": "lib/jsloadmeter.js",
+    "scripts": {
+        "test": "node_modules/.bin/grunt test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/smulyono/jsloadmeter.git"
+    },
+    "bugs": {
+        "url": "https://github.com/smulyono/jsloadmeter/issues"
+    },
+    "keywords": [
+        "load",
+        "meter",
+        "stress",
+        "testing",
+        "benchmark",
+        "phantomjs"
+    ],
+    "author": {
+        "name": "Sanny Mulyono",
+        "email": "smulyono@me.com"
+    },
+    "licenses": [{
+        "type": "Apache 2",
+        "url": "https://github.com/smulyono/jsloadmeter/blob/master/LICENSE.txt"
+    }],
+    "dependencies": {
+        "phantomjs": "^1.9.12"
+    },
+    "devDependencies": {
+        "chai": "^1.10.0",
+        "grunt": "^0.4.5",
+        "grunt-cli": "^0.1.13",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-node-mocha": "^0.1.2",
+        "matchdep": "^0.3.0"
+    }
 }
